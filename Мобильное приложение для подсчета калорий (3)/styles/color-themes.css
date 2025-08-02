@@ -1,0 +1,147 @@
+/* ЦВЕТОВЫЕ ТЕМЫ ДЛЯ ПРИЛОЖЕНИЯ */
+
+/* 1. СИНЯЯ ТЕМА - Современная и свежая */
+.theme-blue {
+  --background: #F0F7FF;
+  --foreground: #1A1A1A;
+  --card: #FFFFFF;
+  --card-foreground: #1A1A1A;
+  --section-bg: #E0F0FF;
+  --primary: #2563EB;
+  --primary-foreground: #FFFFFF;
+  --primary-gradient: linear-gradient(135deg, #2563EB 0%, #3B82F6 100%);
+  --secondary: #BFDBFE;
+  --accent: #1D4ED8;
+  --hover: #DBEAFE;
+  --success: #10B981;
+  --warning: #F59E0B;
+  --destructive: #EF4444;
+  --info: #06B6D4;
+  --shadow: rgba(37, 99, 235, 0.15);
+}
+
+/* 2. ЗЕЛЕНАЯ ТЕМА - Природная и здоровая */
+.theme-green {
+  --background: #F0FDF4;
+  --foreground: #1A1A1A;
+  --card: #FFFFFF;
+  --card-foreground: #1A1A1A;
+  --section-bg: #DCFCE7;
+  --primary: #16A34A;
+  --primary-foreground: #FFFFFF;
+  --primary-gradient: linear-gradient(135deg, #16A34A 0%, #22C55E 100%);
+  --secondary: #BBF7D0;
+  --accent: #15803D;
+  --hover: #D1FAE5;
+  --success: #059669;
+  --warning: #D97706;
+  --destructive: #DC2626;
+  --info: #0891B2;
+  --shadow: rgba(22, 163, 74, 0.15);
+}
+
+/* 3. ТЕПЛАЯ ОРАНЖЕВАЯ ТЕМА - Энергичная и мотивирующая */
+.theme-orange {
+  --background: #FFFBF0;
+  --foreground: #1A1A1A;
+  --card: #FFFFFF;
+  --card-foreground: #1A1A1A;
+  --section-bg: #FEF3E2;
+  --primary: #EA580C;
+  --primary-foreground: #FFFFFF;
+  --primary-gradient: linear-gradient(135deg, #EA580C 0%, #FB923C 100%);
+  --secondary: #FED7AA;
+  --accent: #C2410C;
+  --hover: #FFEDD5;
+  --success: #16A34A;
+  --warning: #D97706;
+  --destructive: #DC2626;
+  --info: #0891B2;
+  --shadow: rgba(234, 88, 12, 0.15);
+}
+
+/* 4. РОЗОВАЯ ТЕМА - Мягкая и дружелюбная */
+.theme-pink {
+  --background: #FDF2F8;
+  --foreground: #1A1A1A;
+  --card: #FFFFFF;
+  --card-foreground: #1A1A1A;
+  --section-bg: #FCE7F3;
+  --primary: #EC4899;
+  --primary-foreground: #FFFFFF;
+  --primary-gradient: linear-gradient(135deg, #EC4899 0%, #F472B6 100%);
+  --secondary: #F9A8D4;
+  --accent: #DB2777;
+  --hover: #FBE7F3;
+  --success: #10B981;
+  --warning: #F59E0B;
+  --destructive: #EF4444;
+  --info: #06B6D4;
+  --shadow: rgba(236, 72, 153, 0.15);
+}
+
+/* 5. ТЕМНО-СИНЯЯ ТЕМА - Премиальная и профессиональная */
+.theme-navy {
+  --background: #F8FAFC;
+  --foreground: #0F172A;
+  --card: #FFFFFF;
+  --card-foreground: #0F172A;
+  --section-bg: #E2E8F0;
+  --primary: #1E40AF;
+  --primary-foreground: #FFFFFF;
+  --primary-gradient: linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%);
+  --secondary: #CBD5E1;
+  --accent: #1E3A8A;
+  --hover: #F1F5F9;
+  --success: #059669;
+  --warning: #D97706;
+  --destructive: #DC2626;
+  --info: #0891B2;
+  --shadow: rgba(30, 64, 175, 0.15);
+}
+
+/* ДОПОЛНИТЕЛЬНЫЕ ТЕМНЫЕ ВАРИАНТЫ */
+.theme-blue.dark {
+  --background: #1E3A8A;
+  --foreground: #FFFFFF;
+  --card: #BFDBFE;
+  --card-foreground: #1A1A1A;
+  --section-bg: #BFDBFE;
+  --shadow: rgba(30, 58, 138, 0.3);
+}
+
+.theme-green.dark {
+  --background: #14532D;
+  --foreground: #FFFFFF;
+  --card: #BBF7D0;
+  --card-foreground: #1A1A1A;
+  --section-bg: #BBF7D0;
+  --shadow: rgba(20, 83, 45, 0.3);
+}
+
+.theme-orange.dark {
+  --background: #9A3412;
+  --foreground: #FFFFFF;
+  --card: #FED7AA;
+  --card-foreground: #1A1A1A;
+  --section-bg: #FED7AA;
+  --shadow: rgba(154, 52, 18, 0.3);
+}
+
+.theme-pink.dark {
+  --background: #831843;
+  --foreground: #FFFFFF;
+  --card: #F9A8D4;
+  --card-foreground: #1A1A1A;
+  --section-bg: #F9A8D4;
+  --shadow: rgba(131, 24, 67, 0.3);
+}
+
+.theme-navy.dark {
+  --background: #0F172A;
+  --foreground: #FFFFFF;
+  --card: #CBD5E1;
+  --card-foreground: #0F172A;
+  --section-bg: #CBD5E1;
+  --shadow: rgba(15, 23, 42, 0.3);
+}
